@@ -1,6 +1,13 @@
 /** 
 no more px or em for stuff need vw and vw so its resizable. check current standards & uses too! best practices? 
 could be institution dependent but it needs to be consistent & a method to the madness. reason for why use this here & that there
+ - correct order of each css property?
+**/
+
+/** consistent margins vs paddings use border around stuff cuz i have tendency to use both margin and padding interchangably by accident to get spacing **/
+
+/**
+get resizing right & also use media queries for diff size screens & media etc
 **/
 
 header {
@@ -29,8 +36,16 @@ h1 {
     font-size: 2.5em;
     font-family: 'Raleway', sans-serif;
     text-decoration: underline;
-    margin-top: 3.5vh;
-    margin-left: 1vw;
+    margin-top: 2.5vh;
+    margin-left: 1.5vw;
+}
+
+h4 {
+    float: left;
+    font-style: oblique;
+    margin-top: -2.5vh;
+    margin-left: 7vw;
+    font-size: .9em;
 }
 
 #menu { /* get this to work so when i hover over the area a grey/blue background comes on & underlines the word. the whole section is the link not just the word */
@@ -60,6 +75,10 @@ h1 {
     padding-bottom: 4px;
 }
 
+/** ------------ **/
+/** PRODUCT CATALOG **/
+/** ------------ **/
+
 #grid_container {
     display: grid;
     grid-template-columns: repeat(5, auto);
@@ -73,6 +92,7 @@ h1 {
     transition: 0.3s;
     margin: 5px;
     text-align: center;
+    height: 425px;
 }
 
 .product_card:hover {
@@ -85,19 +105,25 @@ h1 {
     margin-top: 12px;
 }
 
-h2 {
-    font-size: 1.75em;
-    margin-top: 3px;
-    margin-bottom: -6px;
+#darth_buddha_img {
+    height: 350px;
+    margin-top: 0;
 }
 
-p {
-    padding-top: 1px;
+h2 {
+    font-size: 1.75em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .price {
-    padding-top: 2px;
+    margin-top: 0;
 }
+
+
+/** ------------ **/
+/** PRODUCT VIEW **/
+/** ------------ **/
 
 #product_view_grid_container {
     display: grid;
