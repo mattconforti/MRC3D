@@ -16,6 +16,11 @@ header {
     margin-bottom: 35px;
 }
 
+.name_section_link {
+    text-decoration: none;
+    color: initial;
+}
+
 #name_section {
     float: left;
     width: 500px;
@@ -54,7 +59,7 @@ h4 {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: stretch;
-    padding-top: 71px;
+    padding-top: 10vh;
     padding-left: 150px;
 }
 
@@ -63,7 +68,7 @@ h4 {
 }
 
 #menu > div  a {
-    font-size: 1.125em;
+    font-size: .95em;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
@@ -75,9 +80,11 @@ h4 {
     padding-bottom: 4px;
 }
 
-/** ------------ **/
+
+/** *************** **/
 /** PRODUCT CATALOG **/
-/** ------------ **/
+/** *************** **/
+
 
 #grid_container {
     display: grid;
@@ -121,9 +128,10 @@ h2 {
 }
 
 
-/** ------------ **/
+/** ************ **/
 /** PRODUCT VIEW **/
-/** ------------ **/
+/** ************ **/
+
 
 #product_view_grid_container {
     display: grid;
@@ -190,11 +198,13 @@ select {
     margin-bottom: 3vh;
 }
 
-/** ---------- **/
-/** ABOUT PAGE **/
-/** ---------- **/
 
-#about_div {
+/** ********** **/
+/** ABOUT PAGE **/
+/** ********** **/
+
+
+#about_div, #custom_order_div {
     width: 50vw;
     height: 65vh;
     background-color: #eee;
@@ -202,7 +212,7 @@ select {
     margin-top: 40px;
 }
 
-#about_heading {
+#about_heading, #custom_order_heading {
     font-size: 1.75em;
     text-align: center;
     text-decoration: underline;
@@ -215,7 +225,43 @@ select {
     text-indent: 3%;
     line-height: 195%;
 }
+/* note need text sizes etc to scale with the page. doing media queries for layout & device management but
+stuff is supposed to scale nicely regardless i believe! even just resizing a window.
+*/
 
 #about_h3  {
     text-align: center;
+}
+
+
+/** ***************** **/
+/** CUSTOM ORDER PAGE **/
+/** ***************** **/
+
+
+.custom_order_description {
+    padding: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-indent: 3%;
+    line-height: 195%;
+}
+
+.custom_order_description:nth-of-type(2) {
+    margin-top: 0;
+    margin-bottom: initial;
+}
+
+#order_form_div {
+    margin-top: 4vh;
+    text-align: center;
+}
+
+#pricing_disclaimer {
+    text-indent: initial;
+    margin-top: 1vh;
+}
+
+.pricing_guide_link {
+    text-decoration: none;
 }
