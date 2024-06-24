@@ -12,21 +12,23 @@
     <body>
         <!-- header -->
         <header>
-            <div id="name_section">
-                <img id="logo_img" src="images/mrc3d_logo.jpg" alt="MRC3d Logo Image">
-                <h1>MRC3D</h1>
-                <h4>3-D Printed & Custom Creations<h4> <!-- fix structure it got a bit messy cuz i added this later on. really this should be h2 & so on-->
-                <!-- make this link to about page?? ^^ ?? how to make a header be a link and still be styled normally?? -->
-            </div>
+            <a class="name_section_link" href="../index.html">
+                <div id="name_section">
+                    <img id="logo_img" src="images/mrc3d_logo.jpg" alt="MRC3d Logo Image">
+                    <h1>MRC3D</h1>
+                    <h4>3-D Printed & Custom Creations<h4> <!-- fix structure it got a bit messy cuz i added this later on. really this should be h2 & so on-->
+                    <!-- make this link to about page?? ^^ ?? how to make a header be a link and still be styled normally?? -->
+                </div>
+            </a>
             <div id="menu">
                 <div>
                     <a href="about.html">About</a>
                 </div>
                 <div>
-                    <a href="">Projects</a> <!-- make this have a dropdown with some diff options / categories like you see on other sites -->
+                    <a href="product_catalog.html">Shop</a>
                 </div>
                 <div>
-                    <a href="/html/product_catalog.html">Shop</a>
+                    <a href="custom_order.html">Custom-Order</a> <!-- make this have a dropdown with some diff options / categories like you see on other sites -->
                 </div>
                 <div>
                     <a href="">Contact</a>
@@ -35,7 +37,7 @@
         </header>
         <!-- /header -->
         <hr>
-        <div id="content_area">
+        <div id="add_product_content_area">
             <!-- make this like a youtube studio type page where once you log in & choose creator you can see this page & it does advanced settings the average user doesnt need (in this case its literally only the admin/  site owner who can use this page!! make it hidden / restricted unless your logged in as ME! & nobody should be able to login as me under any circumstances - need legit login security)-->
             <!-- Owner input form - add a new product to the catalogue -->
             <form>
