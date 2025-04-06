@@ -45,7 +45,7 @@ h1 {
     margin-left: 1.5vw;
 }
 
-h4 {
+h4 { /* have to redo h4/h2 cuz it got out of wack. just make sure to change in headers from h4 to h2, then i can change to h2 selector here. make sure other headings are in order & go to correct style*/
     float: left;
     font-style: oblique;
     margin-top: -2.5vh;
