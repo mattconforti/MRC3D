@@ -17,7 +17,7 @@ class Product {
     }
 }
 
-// have this only available for user. So i dont have to hard code new products into the program. I have this that does it for me What about storage when the site goes off? need them to be saved.
+// have this only available for me. So i dont have to hard code new products into the program. I have this that does it for me What about storage when the site goes off? need them to be saved.
 function addProduct() {
     // collect info & upload photos
 
