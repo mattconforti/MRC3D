@@ -76,7 +76,7 @@ header {
     object-fit: contain;
 }
 
-#about_div {
+#about_div, #shop_div, #custom_order_div, #contact_div {
     width: 80vw;
     height: 50vh;
     background-color: #787878;
@@ -84,14 +84,14 @@ header {
     border-radius: 10px;
 }
 
-#about_heading {
+#about_heading, #shop_heading, #custom_order_heading, #contact_heading {
     font-size: .8em;
     text-align: center;
     text-decoration: underline;
     padding-top: 2vh;
 }
 
-.about_p {
+.about_p, .shop_p, .custom_order_p, .contact_p{
     font-size: .7em;
     padding: 5px 10px;
     text-indent: 3%;
