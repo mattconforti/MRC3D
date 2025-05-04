@@ -27,9 +27,9 @@
             <div id="about_div">
                 <h2 id="about_heading">About MRC3D</h2>
                 <p class="about_p">
-                    MRC3D is a Custom 3D Printing Company out of Rochester, NY.
-                    We supply 3D Printed Products & Design / Manufacturing Services
-                    for Retail Consumers worldwide.
+                    MRC3D is a Custom 3D Printing Company based in Rochester, NY.
+                    We supply 3D Printed Products as well as Design & Manufacturing Services
+                    for retail consumers worldwide.
                 </p>
                 <p class="about_p">
                     Product catalogs can be found under the 'Shop'
@@ -37,12 +37,12 @@
                     Ebay, Mercari, Offerup, Facebook, Instagram, etc.
                 </p>
                 <p class="about_p">
-                    Our product/design possibilities include Specialized Design to fit Client Needs,
+                    Our product & design possibilities include Specialized Design (to fit client needs),
                     Home Decor & Kitchen Items, Auto Accessories & Keychains,
                     Personalized Signs & Text, Custom Jewelry, Storage & Organization Solutions,
-                    Replacing Broken or Damaged Items / Parts, Toys & Figurines, Sculptures,
-                    Cosplay, Phone & Computer Parts / Accessories, & many more.
-                    There are a **TON** of different applications across every field in the world.
+                    Replacing Broken or Damaged Pieces/Parts, Toys & Figurines, Sculptures,
+                    Cosplay, Phone & Computer Parts/Accessories, & many more.
+                    There are a **TON** of different applications across every field imaginable.
                 </p>
                 <h3 id="about_h3">The creative possibilities are endless with MRC3D..</h3>
             </div>
