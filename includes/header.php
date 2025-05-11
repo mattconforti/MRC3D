@@ -4,6 +4,9 @@
     <!-- NAV MENU -->
     <div id="menu">
         <div>
+            <a href="/MRC3D/index.php">Home</a>
+        </div>
+        <div>
             <a href="/MRC3D/html/about.php">About</a>
         </div>
         <div>
