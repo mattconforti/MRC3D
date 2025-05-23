@@ -27,7 +27,10 @@
             <div id="shop_div">
                 <h2 id="shop_heading">Shop</h2>
                 <p class="shop_p">
-                    Coming Soon! Website under construction.
+                    <a href="https://www.ebay.com/usr/mrc3dcreations" target="_blank">Ebay</a>
+                </p>
+                <p class="shop_p">
+                    <a href="https://www.mercari.com/u/user193975006/?sv=0" target="_blank">Mercari</a>
                 </p>
             </div>
         </div>
